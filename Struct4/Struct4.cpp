@@ -26,7 +26,7 @@ int main()
 
 	cout << "alamat mahasiswa : " << endl;
 	cout << "\t nama Desa : ";
-	cin >> mhs.alamat.desa;
+	cin >> mhs[i].alamat.desa;
 	cout << "\t Nama kota : ";
 	cin >> mhs.alamat.kota;
 	cout << "Umur Mahasiswa : ";
