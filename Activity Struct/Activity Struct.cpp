@@ -23,6 +23,8 @@ int main()
 	cout << endl;
 	cout << "\n Nim : " << mhs.nim;
 	cout << "\n Nama : " << mhs.nama;
+	cout << "\n Alamat : " << mhs.alamat;
+
 int main(
 {
     std::cout << "Hello World!\n";
