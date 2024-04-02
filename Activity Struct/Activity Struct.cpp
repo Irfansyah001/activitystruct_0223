@@ -20,6 +20,8 @@ int main()
 	cout << "Umur Mahasiswa : ";
 	cin >> mhs.umur;
 
+	cout << endl;
+	cout << "\n Nim : " << mhs.nim;
 int main(
 {
     std::cout << "Hello World!\n";
