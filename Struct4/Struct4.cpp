@@ -30,7 +30,10 @@ int main()
 	cout << "\t Nama kota : ";
 	cin >> mhs[i].alamat.kota;
 	cout << "Umur Mahasiswa : ";
-	cin >> mhs.umur;
+	cin >> mhs[i].umur;
+	cin.ignore(1, '\n');
+	cout << endl;
+
 
 	cout << endl;
 	cout << "\n Nim : " << mhs.nim;
