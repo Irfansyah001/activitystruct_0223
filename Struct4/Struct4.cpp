@@ -37,10 +37,10 @@ int main()
 	for (int i = 0; i < 3; i++) {
 		cout << endl;
 		cout << "Data mahasiswa ke-" << (i + 1) << ":" << endl;
-	cout << "\n Nim : " << mhs.nim;
-	cout << "\n Nama : " << mhs.nama;
+	cout << "\n Nim : " << mhs[i].nim;
+	cout << "\n Nama : " << mhs[i].nama;
 	cout << "\n alamat : ";
-	cout << "\n Desa : " << mhs.alamat.desa;
-	cout << "\n Kota : " << mhs.alamat.kota;
-	cout << "\n Umur : " << mhs.umur;
+	cout << "\n Desa : " << mhs[i].alamat.desa;
+	cout << "\n Kota : " << mhs[i].alamat.kota;
+	cout << "\n Umur : " << mhs[i].umur;
 }
