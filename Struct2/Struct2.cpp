@@ -36,6 +36,7 @@ int main()
 	cout << "\n Kota : " << mhs.alamat.kota;
 	cout << "\n Umur : " << mhs.umur;
 }
+
 int main()
 {
     std::cout << "Hello World!\n";
