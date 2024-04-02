@@ -24,7 +24,8 @@ int main()
 	cout << "\n Nim : " << mhs.nim;
 	cout << "\n Nama : " << mhs.nama;
 	cout << "\n Alamat : " << mhs.alamat;
-
+	cout << "\n Umur : " << mhs.umur;
+}
 int main(
 {
     std::cout << "Hello World!\n";
