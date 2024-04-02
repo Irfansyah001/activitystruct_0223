@@ -10,13 +10,13 @@ struct DetailAlamat {
 struct Mahasiswa {
 	string nim;
 	string nama;
-	string alamat;
+	DetailAlamat alamat;
 	int umur;
 };
 
 int main()
 {
-	Mahasiswa mhs;
+    Mahasiswa mhs;
 	cout << "Nomor Mahasiswa : ";
 	getline(cin, mhs.nim);
 
@@ -39,4 +39,3 @@ int main()
 	cout << "\n Kota : " << mhs.alamat.kota;
 	cout << "\n Umur : " << mhs.umur;
 }
-
